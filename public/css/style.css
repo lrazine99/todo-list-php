@@ -1,0 +1,215 @@
+
+
+* {
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+}
+
+.none{
+    display : none  !important;
+}
+
+
+h1{
+    text-align: center;
+}
+
+.ajout {
+    margin: 4% auto;
+    width: 30%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+}
+
+.ajout > form > label {
+    position: relative;
+    margin-right: 10px;
+    
+    
+}
+
+.ajout > form > select {
+    position: relative;
+    height: 30px;  
+}
+
+
+.ajout > form> label > input[type="text"] {
+    
+    
+    width: 200px;
+    border:none;
+    outline:  none;
+    color: white;
+    background: rgb(0, 0, 0) ;
+    height: 30px;  
+    z-index: 1;
+}
+
+
+
+.ajout > form > label> button {
+    position: absolute;
+    top: -5.5;
+    bottom: 0;
+    right: 1;
+    border: none;
+    background: blue;
+    height: 30px;
+    width: 30px;
+    z-index: 3;
+    font-size: large;
+  
+}
+
+.ajout > form > label> button:hover {
+    cursor: pointer;
+    
+}
+
+
+
+.filtre >  button{
+    background: red;
+    text-decoration: none;
+    border: none;
+    padding: 12px;
+}
+
+.filtre >  button:hover{
+     cursor: pointer;
+     background-color: rgb(252, 58, 58);
+
+}
+
+.href{
+    background-color: blue !important;
+    padding: 10px !important;
+}
+
+.linkStyle{
+    text-decoration:none; 
+    color: black;
+    -ms-flex-item-align: center;
+        -ms-grid-row-align: center;
+        align-self: center; 
+}
+
+.linkStyle:hover{
+    color: gold;
+}
+
+.filtre{
+    width: 50%;
+    margin: 0 auto;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+    -ms-flex-line-pack: center;
+        align-content: center;
+    
+}
+
+.filtre > p{
+    color: red;
+}
+
+.filtre >*{
+padding: 0 7;
+}
+
+
+.items >div{
+
+    display: -webkit-box;
+
+    display: -ms-flexbox;
+
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    width: 50%;
+    margin: 10 auto;
+
+}
+
+
+
+.firstDiv{
+    
+    background-color: black;
+    height: 50px;
+    width: 50%;
+    color: white;
+    padding-left: 10px;
+}
+
+.secondDiv{
+
+    display: -webkit-box;
+
+    display: -ms-flexbox;
+
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+
+}
+
+#nativeDiv{
+    display :-webkit-box;
+    display :-ms-flexbox;
+    display :flex;
+    background-color: rgb(28, 30, 202);
+    padding: 0 7;
+    
+}
+
+#nativeDiv:hover{
+    cursor: pointer;
+    background-color: rgb(39, 42, 221);
+    
+}
+
+#nativeDiv > svg:hover{
+    cursor: pointer;
+    fill: gold;
+    
+}
+
+#firstLink{
+    display :-webkit-box;
+    display :-ms-flexbox;
+    display :flex;
+    background-color: green;
+    padding: 0 7;
+}
+
+#secondLink{
+    display :-webkit-box;
+    display :-ms-flexbox;
+    display :flex;
+    background-color: red;
+    padding: 0 7;
+}
+
+#firstLink:hover{
+    background-color: rgb(18, 177, 18);
+    cursor: pointer;
+    color: gold;
+    
+}
+
+#secondLink:hover{
+    
+    background-color: rgb(252, 58, 58);
+    cursor: pointer;
+}

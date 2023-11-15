@@ -1,0 +1,11 @@
+{
+    "name": "louafi/todolist",
+    "autoload": {
+        "psr-4": {
+            "Router\\":"routes/",
+            "App\\": "app/",
+            "Database\\": "database/"
+        }
+    },
+    "require": {}
+}
